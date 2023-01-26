@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B43E70C298232EA004569E7 /* falling_lettersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43E70B298232EA004569E7 /* falling_lettersApp.swift */; };
+		9B43E70E298232EA004569E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43E70D298232EA004569E7 /* ContentView.swift */; };
+		9B43E710298232EA004569E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B43E70F298232EA004569E7 /* Assets.xcassets */; };
+		9B43E713298232EA004569E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B43E712298232EA004569E7 /* Preview Assets.xcassets */; };
+		9B43E71D298232EA004569E7 /* falling_lettersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43E71C298232EA004569E7 /* falling_lettersTests.swift */; };
+		9B43E727298232EA004569E7 /* falling_lettersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43E726298232EA004569E7 /* falling_lettersUITests.swift */; };
+		9B43E729298232EA004569E7 /* falling_lettersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43E728298232EA004569E7 /* falling_lettersUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B43E719298232EA004569E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B43E700298232EA004569E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B43E707298232EA004569E7;
+			remoteInfo = "falling letters";
+		};
+		9B43E723298232EA004569E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B43E700298232EA004569E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B43E707298232EA004569E7;
+			remoteInfo = "falling letters";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B43E708298232EA004569E7 /* falling letters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "falling letters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B43E70B298232EA004569E7 /* falling_lettersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = falling_lettersApp.swift; sourceTree = "<group>"; };
+		9B43E70D298232EA004569E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B43E70F298232EA004569E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B43E712298232EA004569E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B43E718298232EA004569E7 /* falling lettersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "falling lettersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B43E71C298232EA004569E7 /* falling_lettersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = falling_lettersTests.swift; sourceTree = "<group>"; };
+		9B43E722298232EA004569E7 /* falling lettersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "falling lettersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B43E726298232EA004569E7 /* falling_lettersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = falling_lettersUITests.swift; sourceTree = "<group>"; };
+		9B43E728298232EA004569E7 /* falling_lettersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = falling_lettersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B43E705298232EA004569E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B43E715298232EA004569E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B43E71F298232EA004569E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B43E6FF298232EA004569E7 = {
+			isa = PBXGroup;
+			children = (
+				9B43E70A298232EA004569E7 /* falling letters */,
+				9B43E71B298232EA004569E7 /* falling lettersTests */,
+				9B43E725298232EA004569E7 /* falling lettersUITests */,
+				9B43E709298232EA004569E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B43E709298232EA004569E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B43E708298232EA004569E7 /* falling letters.app */,
+				9B43E718298232EA004569E7 /* falling lettersTests.xctest */,
+				9B43E722298232EA004569E7 /* falling lettersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B43E70A298232EA004569E7 /* falling letters */ = {
+			isa = PBXGroup;
+			children = (
+				9B43E70B298232EA004569E7 /* falling_lettersApp.swift */,
+				9B43E70D298232EA004569E7 /* ContentView.swift */,
+				9B43E70F298232EA004569E7 /* Assets.xcassets */,
+				9B43E711298232EA004569E7 /* Preview Content */,
+			);
+			path = "falling letters";
+			sourceTree = "<group>";
+		};
+		9B43E711298232EA004569E7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B43E712298232EA004569E7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B43E71B298232EA004569E7 /* falling lettersTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B43E71C298232EA004569E7 /* falling_lettersTests.swift */,
+			);
+			path = "falling lettersTests";
+			sourceTree = "<group>";
+		};
+		9B43E725298232EA004569E7 /* falling lettersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B43E726298232EA004569E7 /* falling_lettersUITests.swift */,
+				9B43E728298232EA004569E7 /* falling_lettersUITestsLaunchTests.swift */,
+			);
+			path = "falling lettersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B43E707298232EA004569E7 /* falling letters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B43E72C298232EA004569E7 /* Build configuration list for PBXNativeTarget "falling letters" */;
+			buildPhases = (
+				9B43E704298232EA004569E7 /* Sources */,
+				9B43E705298232EA004569E7 /* Frameworks */,
+				9B43E706298232EA004569E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "falling letters";
+			productName = "falling letters";
+			productReference = 9B43E708298232EA004569E7 /* falling letters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B43E717298232EA004569E7 /* falling lettersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B43E72F298232EA004569E7 /* Build configuration list for PBXNativeTarget "falling lettersTests" */;
+			buildPhases = (
+				9B43E714298232EA004569E7 /* Sources */,
+				9B43E715298232EA004569E7 /* Frameworks */,
+				9B43E716298232EA004569E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B43E71A298232EA004569E7 /* PBXTargetDependency */,
+			);
+			name = "falling lettersTests";
+			productName = "falling lettersTests";
+			productReference = 9B43E718298232EA004569E7 /* falling lettersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B43E721298232EA004569E7 /* falling lettersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B43E732298232EA004569E7 /* Build configuration list for PBXNativeTarget "falling lettersUITests" */;
+			buildPhases = (
+				9B43E71E298232EA004569E7 /* Sources */,
+				9B43E71F298232EA004569E7 /* Frameworks */,
+				9B43E720298232EA004569E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B43E724298232EA004569E7 /* PBXTargetDependency */,
+			);
+			name = "falling lettersUITests";
+			productName = "falling lettersUITests";
+			productReference = 9B43E722298232EA004569E7 /* falling lettersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B43E700298232EA004569E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9B43E707298232EA004569E7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9B43E717298232EA004569E7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9B43E707298232EA004569E7;
+					};
+					9B43E721298232EA004569E7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9B43E707298232EA004569E7;
+					};
+				};
+			};
+			buildConfigurationList = 9B43E703298232EA004569E7 /* Build configuration list for PBXProject "falling letters" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B43E6FF298232EA004569E7;
+			productRefGroup = 9B43E709298232EA004569E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B43E707298232EA004569E7 /* falling letters */,
+				9B43E717298232EA004569E7 /* falling lettersTests */,
+				9B43E721298232EA004569E7 /* falling lettersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B43E706298232EA004569E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B43E713298232EA004569E7 /* Preview Assets.xcassets in Resources */,
+				9B43E710298232EA004569E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B43E716298232EA004569E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B43E720298232EA004569E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B43E704298232EA004569E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B43E70E298232EA004569E7 /* ContentView.swift in Sources */,
+				9B43E70C298232EA004569E7 /* falling_lettersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B43E714298232EA004569E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B43E71D298232EA004569E7 /* falling_lettersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B43E71E298232EA004569E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B43E729298232EA004569E7 /* falling_lettersUITestsLaunchTests.swift in Sources */,
+				9B43E727298232EA004569E7 /* falling_lettersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B43E71A298232EA004569E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B43E707298232EA004569E7 /* falling letters */;
+			targetProxy = 9B43E719298232EA004569E7 /* PBXContainerItemProxy */;
+		};
+		9B43E724298232EA004569E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B43E707298232EA004569E7 /* falling letters */;
+			targetProxy = 9B43E723298232EA004569E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B43E72A298232EA004569E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B43E72B298232EA004569E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B43E72D298232EA004569E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"falling letters/Preview Content\"";
+				DEVELOPMENT_TEAM = 68WTNC8XPF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kezzi.falling-letters.falling-letters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B43E72E298232EA004569E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"falling letters/Preview Content\"";
+				DEVELOPMENT_TEAM = 68WTNC8XPF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kezzi.falling-letters.falling-letters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B43E730298232EA004569E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68WTNC8XPF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kezzi.falling-letters.falling-lettersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/falling letters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/falling letters";
+			};
+			name = Debug;
+		};
+		9B43E731298232EA004569E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68WTNC8XPF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kezzi.falling-letters.falling-lettersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/falling letters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/falling letters";
+			};
+			name = Release;
+		};
+		9B43E733298232EA004569E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68WTNC8XPF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kezzi.falling-letters.falling-lettersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "falling letters";
+			};
+			name = Debug;
+		};
+		9B43E734298232EA004569E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68WTNC8XPF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.kezzi.falling-letters.falling-lettersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "falling letters";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B43E703298232EA004569E7 /* Build configuration list for PBXProject "falling letters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B43E72A298232EA004569E7 /* Debug */,
+				9B43E72B298232EA004569E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B43E72C298232EA004569E7 /* Build configuration list for PBXNativeTarget "falling letters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B43E72D298232EA004569E7 /* Debug */,
+				9B43E72E298232EA004569E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B43E72F298232EA004569E7 /* Build configuration list for PBXNativeTarget "falling lettersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B43E730298232EA004569E7 /* Debug */,
+				9B43E731298232EA004569E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B43E732298232EA004569E7 /* Build configuration list for PBXNativeTarget "falling lettersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B43E733298232EA004569E7 /* Debug */,
+				9B43E734298232EA004569E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B43E700298232EA004569E7 /* Project object */;
+}
